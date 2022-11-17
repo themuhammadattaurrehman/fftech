@@ -34,6 +34,25 @@
 </head>
 
 <body>
+<?php
+    if(!empty($_POST["send"])){
+        $name=$_POST["name"];
+        $email=$_POST["email"];
+        $massage=$_POST["massage"];
+
+        $to="farihaiqbal015@gmail.com";
+        $mailHeaders="Name : ". $name .
+        "\r\n Email: ". $email .
+        "\r\n Massage: ". $massage . "\r\n";
+
+        if(mail($to,$name,$mailHeaders)){
+            $messege="successfully";
+        }
+    
+
+
+    }
+?>
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -699,7 +718,7 @@
                     <div class="contact-wrapper form-style-two pt-115">
                         <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Leave <span>A Message.</span></h4>
                         
-                        <form id="contact-form" action="./form.php" method="post">
+                        <form id="contact-form" method="post">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-input mt-25">
@@ -732,6 +751,11 @@
                                 <div class="col-md-12">
                                     <div class="form-input light-rounded-buttons mt-30">
                                         <input type="submit"  name="send" value="submit" class="main-btn light-rounded-two">
+                                        <?php if (!empty($message)){?>
+                                        <div class="success" >
+                                            <strong><?php echo $message;?></strong>
+                                        </div>
+                                        <?php } ?>
                                     
                                     </div> <!-- form input -->
                                 </div>
@@ -752,7 +776,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="assets/images/logo.svg" alt="Logo"></a>
+                        <a class="mt-30" href="index.php"><img src="assets/images/logo.svg" alt="Logo"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>

@@ -3320,9 +3320,18 @@ p.form-message.success, p.form-message.error {
   margin-right: 0;
   margin-bottom: 10px;
   width: 100%;
-}
-
-.port-popup .port-content {
-  width: 100%;
-}
   }
+
+  .port-popup .port-content {
+    width: 100%;
+  }
+}
+.success{
+  background: #00b8d8;
+  padding: 5px 10px;
+  text-align: center;
+  color: #4da422;
+  border-radius: 3px;
+  font-synthesis: 14px;
+  margin-top: 10px;
+}
