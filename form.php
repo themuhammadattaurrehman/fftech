@@ -8,6 +8,10 @@
         $subject='form';
         $message="name : ".$name."\n"."Massage : ".$massage.
         $headers="From: ".$email;
+        
+        if(mail($to,$subject,$message,$headers)){
+            echo "<h1>successfully<h1>"
+        }
     
 
 
