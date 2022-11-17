@@ -4,13 +4,13 @@
         $email=$_POST['email'];
         $massage=$_POST['massage'];
 
-        $to='ali.iiui1234@gmail.com';
+        $to='farihaiqbal015@gmail.com';
         $subject='form';
         $message="name : ".$name."\n"."Massage : ".$massage.
         $headers="From: ".$email;
         
         if(mail($to,$subject,$message,$headers)){
-            echo "";
+            header(': index.html');
         }
     
 
