@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     
     <!--====== Title ======-->
-    <title>fftechsol</title>
+    <title>FF Technical Solutions</title>
     
     <meta name="description" content="Fatima Foundation Technical Solutions">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,7 +40,7 @@
         $email=$_POST["email"];
         $massage=$_POST["massage"];
 
-        $to="farihaiqbal015@gmail.com";
+        $to="contact@fftechsol.com";
         $mailHeaders="Name : ". $name .
         "\r\n Email: ". $email .
         "\r\n Massage: ". $massage . "\r\n";
@@ -150,7 +150,7 @@
 
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                             <ul class="navbar-nav m-auto">
-                                <li class="nav-item active"><a class="page-scroll" href="#home">home</a></li>
+                                <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#services">Services</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#portfolio">Portfolio</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
@@ -188,7 +188,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h1 class="title">Welcome to fftecsol</h1>
+                                    <h1 class="title">Welcome to FF Technical Solutions</h1>
                                     <p class="text">Make your business shine online with a custom software website designed just for you by a professional designer. </p>
                                     <ul class="slider-btn rounded-buttons">
                                         <!-- <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
@@ -625,17 +625,15 @@
                       <div class="about__3-content mb-60">
                          <div class="section__title mb-30">
                             <!-- <span class="sub-title">about us</span> -->
-                            <h2 class="title">FFiTsolutions involved in <br> servicing, maintenance.</h2>
+                            <h2 class="title">FF Technical Solutions involved in <br> servicing, maintenance.</h2>
                          </div>
                          <div class="about__3-content-inner p-relative">
                             <div class="about__3-content-left">
                                <p>
-                                  FFiTsolutions is a global provider of professional integration, development and maintenance solutions. We are committed to providing superior service and customized customer solutions.
-                                  
+                                  FF Technical Solutions is a global provider of professional integration, development and maintenance solutions. We are committed to providing superior service and customized customer solutions.
                                </p>
                                <p>
-                                  FFiTsolutions offers and sets up a wide range of solutions for businesses, education institutions and the government.
-                               
+                                  FF Technical Solutions offers and sets up a wide range of solutions for businesses, education institutions and the government.
                                </p>
                                
                             </div>
@@ -707,6 +705,7 @@
                             </div>
                             <div class="contact-info-content media-body">
                                 <p class="text">+92 346 5430413</p>
+                                <p class="text">+92 312 5193127</p>
                             </div>
                         </div> <!-- single contact info -->
                     </div>
@@ -741,7 +740,7 @@
                                     <div class="form-input mt-25">
                                         <label>Massage</label>
                                         <div class="input-items default">
-                                            <textarea name="massage" placeholder="Massage"></textarea>
+                                            <textarea name="message" placeholder="your message"></textarea>
                                             <i class="lni lni-pencil-alt"></i>
                                         </div>
                                     </div> <!-- form input -->
@@ -784,11 +783,11 @@
                         <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
                     </ul> <!-- social -->
                     <div class="footer-support text-center">
-                        <span class="number">+8801234567890</span>
-                        <span class="mail">support@uideck.com</span>
+                        <span class="number">+92 346 5430413</span>
+                        <span class="mail">support@fftechsol.com</span>
                     </div>
                     <div class="copyright text-center mt-35">
-                        <p class="text">Designed by FFiTsolutions 2022 </p>
+                        <p class="text">Designed by FF Technical Solutions Team </p>
                     </div> <!--  copyright -->
                 </div>
             </div> <!-- row -->
