@@ -38,15 +38,15 @@
     if(!empty($_POST["send"])){
         $name=$_POST["name"];
         $email=$_POST["email"];
-        $massage=$_POST["massage"];
+        $message=$_POST["message"];
 
         $to="contact@fftechsol.com";
         $mailHeaders="Name : ". $name .
         "\r\n Email: ". $email .
-        "\r\n Massage: ". $massage . "\r\n";
+        "\r\n Message: ". $message . "\r\n";
 
         if(mail($to,$name,$mailHeaders)){
-            $messege="successfully";
+            $message="successfully";
         }
     
 
