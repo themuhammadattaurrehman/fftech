@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     
     <!--====== Title ======-->
-    <title>FFiTsolutions</title>
+    <title>fftechsol</title>
     
-    <meta name="description" content="">
+    <meta name="description" content="Fatima Foundation Technical Solutions">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
@@ -685,7 +685,7 @@
                                 <i class="lni lni-map-marker"></i>
                             </div>
                             <div class="contact-info-content media-body">
-                                <p class="text"> Gate-1 Masjid rahmat<br>B17 Islamabad.</p>
+                                <p class="text">Masjid Rahmat Ul Alamin, Near Gate 2, <br>B-17 Islamabad.</p>
                             </div>
                         </div> <!-- single contact info -->
                     </div>
@@ -695,8 +695,8 @@
                                 <i class="lni lni-envelope"></i>
                             </div>
                             <div class="contact-info-content media-body">
-                                <p class="text">FFiTsolutions@123.com</p>
-                                <p class="text">support@uideck.com</p>
+                                <p class="text">contact@fftechsol.com</p>
+                                <p class="text">support@fftechsol.com</p>
                             </div>
                         </div> <!-- single contact info -->
                     </div>
@@ -706,8 +706,7 @@
                                 <i class="lni lni-phone"></i>
                             </div>
                             <div class="contact-info-content media-body">
-                                <p class="text">+333 789-321-654</p>
-                                <p class="text">+333 985-458-609</p>
+                                <p class="text">+92 346 5430413</p>
                             </div>
                         </div> <!-- single contact info -->
                     </div>
