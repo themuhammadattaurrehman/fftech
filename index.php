@@ -671,7 +671,6 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-map mt-30">
-                    <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.7817393681994!2d72.83320902138357!3d33.68871529158463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfa3d977da201d%3A0x184074d5941b956!2sParis%20Heights!5e0!3m2!1sen!2s!4v1668759267218!5m2!1sen!2s" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div> <!--row-->
                 </div>
