@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: 199.188.200.173
+        server: 198.54.114.231
         username: fftechsol@fftechsol.com
         password: ${{SECRETS.SERVERPASSWORD}}
