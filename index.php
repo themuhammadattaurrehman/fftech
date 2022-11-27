@@ -83,26 +83,44 @@
 
     <!--====== POPUP START ======-->
 
-
-     <div class="port-overlay">
+<div class="port-overlay" id="gaca">
         <div class="port-popup">
             <div class="port-close">
-                <i class="lni lni-close popup-close"></i>
+                <i class="fa fa-window-close"></i>
             </div>
 
+            <div class="port-container">
+                
+                <div class="port-slider cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#gaca-prev"
+                data-cycle-next="#gaca-next"
+                >
+                <img src="assets/images/portfolio/gaca-1.jpg">
+                <img src="assets/images/portfolio/gaca-2.jpg">
+                <img src="assets/images/portfolio/gaca-3.jpg">
+                <img src="assets/images/portfolio/gaca-4.jpg">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="port-img">
-                <img src="assets/images/portfolio/2.png" alt="">
+                <div class="center">
+                   <a href=# id="gaca-prev" class="prev">
+                     <img src="assets/images/portfolio/left-chevron.png" alt="">
+                   </a> 
+                   <a href=# id="gaca-next" class="next">
+                     <img src="assets/images/portfolio/right-chevron.png" alt="">
+                   </a>
+               </div>
+
             </div>
-                    </div>
 
-                    <div class="col-md-8">
-                        <div class="port-content">
+                  
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="port-content">
                 <div class="port-heading">
-                    <h3>Our Best Project</h3>
+                    <h3>Global ACCR. &amp; CERT. Academy</h3>
                 </div>
 
                 <div class="port-tech">
@@ -116,16 +134,267 @@
                 </div>
 
                 <div class="port-desc">
-                    Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Sapiente, eius facilis quam, vero a explicabo quisquam eveniet alias qui architect.
+                    Global ACCR. &amp; CERT. Academy is a Soft skills training institute, where they manage online certification &amp; verification system.
                 </div>
-            </div>
-                    </div>
+
+                <div class="port-link">
+                  <a href="https://razash.000webhostapp.com/" target="_blank">Visit Project <i class="fa fa-external-link"></i></a>
                 </div>
+         </div>
+                    
             </div>
             
             
         </div>
     </div>
+
+    <div class="port-overlay" id="alexa">
+        <div class="port-popup">
+            <div class="port-close">
+                <i class="fa fa-window-close"></i>
+            </div>
+
+            <div class="port-container">
+                
+                <div class="port-slider cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#alexa-prev"
+                data-cycle-next="#alexa-next"
+                >
+                <img src="assets/images/portfolio/alexa-1.png">
+                <img src="assets/images/portfolio/alexa-2.png">
+                <img src="assets/images/portfolio/alexa-3.png">
+                <img src="assets/images/portfolio/alexa-4.png">
+
+                <div class="center">
+                   <a href=# id="alexa-prev" class="prev">
+                     <img src="assets/images/portfolio/left-chevron.png" alt="">
+                   </a> 
+                   <a href=# id="alexa-next" class="next">
+                     <img src="assets/images/portfolio/right-chevron.png" alt="">
+                   </a>
+               </div>
+
+            </div>
+
+                  
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="port-content">
+                <div class="port-heading">
+                    <h3>Alexa IT Homes</h3>
+                </div>
+
+                <div class="port-tech">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>javascript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+
+                <div class="port-desc">
+                    alexaithomes is Home for IT & Tech Solutions. their sologan is to provide Reliable Services and Robust Solutions.
+                </div>
+
+                <div class="port-link">
+                  <a href="https://sa.alexaithomes.com/" target="_blank">Visit Project <i class="fa fa-external-link"></i></a>
+                </div>
+         </div>
+                    
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <div class="port-overlay" id="hms">
+        <div class="port-popup">
+            <div class="port-close">
+                <i class="fa fa-window-close"></i>
+            </div>
+
+            <div class="port-container">
+                
+                <div class="port-slider cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#hms-prev"
+                data-cycle-next="#hms-next"
+                >
+                <img src="assets/images/portfolio/hms-1.png">
+                <img src="assets/images/portfolio/hms-2.png">
+                <img src="assets/images/portfolio/hms-3.png">
+
+                <div class="center">
+                   <a href=# id="hms-prev" class="prev">
+                     <img src="assets/images/portfolio/left-chevron.png" alt="">
+                   </a> 
+                   <a href=# id="hms-next" class="next">
+                     <img src="assets/images/portfolio/right-chevron.png" alt="">
+                   </a>
+               </div>
+
+            </div>
+
+                  
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="port-content">
+                <div class="port-heading">
+                    <h3>Smart Hospital</h3>
+                </div>
+
+                <div class="port-tech">
+                    <ul>
+                        <li>javascript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+
+                <div class="port-desc">
+                  We developed the login system for smart hospital website.
+                </div>
+
+                <div class="port-link">
+                  <a href="https://demo.hms.alexaithomes.com/site/login" target="_blank">Visit Project <i class="fa fa-external-link"></i></a>
+                </div>
+         </div>
+                    
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <div class="port-overlay" id="alexa-school">
+        <div class="port-popup">
+            <div class="port-close">
+                <i class="fa fa-window-close"></i>
+            </div>
+
+            <div class="port-container">
+                
+                <div class="port-slider cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#alexa-school-prev"
+                data-cycle-next="#alexa-school-next"
+                >
+                <img src="assets/images/portfolio/alexa-school-1.png">
+                <img src="assets/images/portfolio/alexa-school-2.png">
+                <img src="assets/images/portfolio/alexa-school-3.png">
+
+                <div class="center">
+                   <a href=# id="alexa-school-prev" class="prev">
+                     <img src="assets/images/portfolio/left-chevron.png" alt="">
+                   </a> 
+                   <a href=# id="alexa-school-next" class="next">
+                     <img src="assets/images/portfolio/right-chevron.png" alt="">
+                   </a>
+               </div>
+
+            </div>
+
+                  
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="port-content">
+                <div class="port-heading">
+                    <h3>Alexa School System</h3>
+                </div>
+
+                <div class="port-tech">
+                    <ul>
+                        <li>javascript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+
+                <div class="port-desc">
+                  We developed the login system for Alexa School System.
+                </div>
+
+                <div class="port-link">
+                  <a href="https://demo.sms.alexaithomes.com/site/login" target="_blank">Visit Project <i class="fa fa-external-link"></i></a>
+                </div>
+         </div>
+                    
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <div class="port-overlay" id="pos">
+        <div class="port-popup">
+            <div class="port-close">
+                <i class="fa fa-window-close"></i>
+            </div>
+
+            <div class="port-container">
+                
+                <div class="port-slider cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-timeout="0"
+                data-cycle-prev="#pos-prev"
+                data-cycle-next="#pos-next"
+                >
+                <img src="assets/images/portfolio/pos-1.png">
+                <img src="assets/images/portfolio/pos-2.png">
+                <img src="assets/images/portfolio/pos-3.png">
+
+                <div class="center">
+                   <a href=# id="pos-prev" class="prev">
+                     <img src="assets/images/portfolio/left-chevron.png" alt="">
+                   </a> 
+                   <a href=# id="pos-next" class="next">
+                     <img src="assets/images/portfolio/right-chevron.png" alt="">
+                   </a>
+               </div>
+
+            </div>
+
+                  
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="port-content">
+                <div class="port-heading">
+                    <h3>Alexa Admin</h3>
+                </div>
+
+                <div class="port-tech">
+                    <ul>
+                        <li>javascript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+
+                <div class="port-desc">
+                  Fully controlled backend admin panel.
+                </div>
+
+                <div class="port-link">
+                  <a href="https://demo.pos1.alexaithomes.com/" target="_blank">Visit Project <i class="fa fa-external-link"></i></a>
+                </div>
+         </div>
+                    
+            </div>
+            
+            
+        </div>
+    </div>
+    
 
     <!--====== POPUP END ======-->
 
@@ -369,153 +638,202 @@
     
     <!--====== PORTFOLIO PART START ======-->
 
-   <section id="portfolio" class="portfolio-area portfolio-four pb-100">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-6 col-md-10">
-<div class="section-title text-center pb-10">
-<h3 class="title">Featured Works</h3>
-<p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
-</div> 
-</div>
-</div> 
-<div class="row">
-<div class="col-lg-3 col-md-3">
-<div class="portfolio-menu text-center mt-50">
-<ul>
-<li data-filter="*" class="active">ALL WORK</li>
-<li data-filter=".branding-4" class="">BRANDING</li>
-<li data-filter=".marketing-4" class="">MARKETING</li>
-<li data-filter=".planning-4" class="">PLANNING</li>
-<li data-filter=".research-4" class="">RESEARCH</li>
-</ul>
-</div> 
-</div>
-<div class="col-lg-9 col-md-9">
-<div class="row no-gutters grid mt-50" style="position: relative; height: 500px;">
-<div class="col-lg-4 col-sm-6 branding-4 planning-4" style="position: absolute; left: 0px; top: 0px;">
-<div class="single-portfolio">
-<div class="portfolio-image">
-<img src="assets/images/portfolio/1.png" alt="">
-<div class="portfolio-overlay d-flex align-items-center justify-content-center">
-<div class="portfolio-content">
-<div class="portfolio-icon">
-<span class="zoom-port"><i class="lni lni-zoom-in"></i></span>
 
-</div>
-<div class="portfolio-icon">
-<a href="#"><i class="lni lni-link"></i></a>
-
-</div>
-</div>
-</div>
-</div>
-</div> 
-</div>
-<div class="col-lg-4 col-sm-6 marketing-4 research-4" style="position: absolute; left: 274.984px; top: 0px;">
-<div class="single-portfolio">
-<div class="portfolio-image">
-<img src="assets/images/portfolio/2.png" alt="">
-<div class="portfolio-overlay d-flex align-items-center justify-content-center">
-<div class="portfolio-content">
-<div class="portfolio-icon">
-<span class="zoom-port"><i class="lni lni-zoom-in"></i></span>
-
-</div>
-<div class="portfolio-icon">
-<a href="#"><i class="lni lni-link"></i></a>
-
-</div>
-</div>
-</div>
-</div>
-</div> 
-</div>
-<div class="col-lg-4 col-sm-6 branding-4 marketing-4" style="position: absolute; left: 549.968px; top: 0px;">
-<div class="single-portfolio">
-<div class="portfolio-image">
-<img src="assets/images/portfolio/3.png" alt="">
-<div class="portfolio-overlay d-flex align-items-center justify-content-center">
-<div class="portfolio-content">
-<div class="portfolio-icon">
-<span class="zoom-port"><i class="lni lni-zoom-in"></i></span>
-
-</div>
-<div class="portfolio-icon">
-<a href="#"><i class="lni lni-link"></i></a>
-
-</div>
-</div>
-</div>
-</div>
-</div> 
-</div>
-<div class="col-lg-4 col-sm-6 planning-4 research-4" style="position: absolute; left: 0px; top: 274.984px;">
-<div class="single-portfolio">
-<div class="portfolio-image">
-<img src="assets/images/portfolio/4.png" alt="">
-<div class="portfolio-overlay d-flex align-items-center justify-content-center">
-<div class="portfolio-content">
-<div class="portfolio-icon">
-<span class="zoom-port"><i class="lni lni-zoom-in"></i></span>
-
-</div>
-<div class="portfolio-icon">
-<a href="#"><i class="lni lni-link"></i></a>
-
-</div>
-</div>
-</div>
-</div>
-</div> 
-</div>
-<div class="col-lg-4 col-sm-6 marketing-4" style="position: absolute; left: 274.984px; top: 274.984px;">
-<div class="single-portfolio">
-<div class="portfolio-image">
-<img src="assets/images/portfolio/5.png" alt="">
-<div class="portfolio-overlay d-flex align-items-center justify-content-center">
-<div class="portfolio-content">
-<div class="portfolio-icon">
-<span class="zoom-port"><i class="lni lni-zoom-in"></i></span>
-
-</div>
-<div class="portfolio-icon">
-<a href="#"><i class="lni lni-link"></i></a>
-
-</div>
-</div>
-</div>
-</div>
-</div> 
-</div>
-<div class="col-lg-4 col-sm-6 planning-4" style="position: absolute; left: 549.968px; top: 274.984px;">
-<div class="single-portfolio">
-<div class="portfolio-image">
-<img src="assets/images/portfolio/6.png" alt="">
-<div class="portfolio-overlay d-flex align-items-center justify-content-center">
-<div class="portfolio-content">
-<div class="portfolio-icon">
-<span class="zoom-port"><i class="lni lni-zoom-in"></i></span>
-
-</div>
-<div class="portfolio-icon">
-<a href="#"><i class="lni lni-link"></i></a>
-
-</div>
-</div>
-</div>
-</div>
-</div> 
-</div>
+    <section class="portfolio">
 
 
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10">
+            <div class="section-title text-center pb-10">
+            <h3 class="title">Featured Works</h3>
+            <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+            </div> 
+            </div>
+            </div>
+        </div>
 
 
-</div> 
-</div>
-</div> 
-</div> 
-</section>
+      <div class="portfolio-nav" id="filter-button">
+         <ul class="controls">
+            <li data-filter="all" class="control active">
+               <span>All</span>
+            </li>
+
+            <li data-filter=".web-design" class="control">
+               <span>Web Design</span>
+            </li>
+
+            <li data-filter=".ecommerce" class="control">
+               <span>eCommerce</span>
+            </li>
+
+            <li data-filter=".softwares" class="control">
+               <span>Softwares</span>
+            </li>
+
+            <li data-filter=".cms" class="control">
+               <span>CMS</span>
+            </li>
+         </ul>
+      </div>
+      <div class="portfolioContainer">
+            
+
+         <div class="grid-item mix web-design">
+            <figure>
+               <img src="assets/images/portfolio/gaca-1.jpg" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search zoom-port" id="gaca"></i>
+                  <h5 class="port-title">GACA</h5>
+                  <span class="desc">Soft skills training institute, online certification &amp; verification</span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix ecommerce">
+            <figure>
+               <img src="assets/images/portfolio/alexa-1.png" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search zoom-port" id="alexa"></i>
+                  <h5 class="port-title">Alexa IT Homes</h5>
+                  <span class="desc">alexaithomes is Home for IT & Tech Solutions. their sologan is Reliable Services. Robust Solutions. </span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix cms">
+            <figure>
+               <img src="assets/images/portfolio/hms-1.PNG" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search zoom-port" id="hms"></i>
+                  <h5 class="port-title">Smart Hospital</h5>
+                  <span class="desc">Backend of a Hospital site.</span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix softwares">
+            <figure>
+               <img src="assets/images/portfolio/alexa-school-1.png" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search zoom-port" id="alexa-school"></i>
+                  <h5 class="port-title">Alexa School System</h5>
+                  <span class="desc">Complete content management system for Alexa School System.</span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix cms">
+            <figure>
+               <img src="assets/images/portfolio/alexa-admin-1.png" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search zoom-port" id="pos"></i>
+                  <h5 class="port-title">Alexa Admin</h5>
+                  <span class="desc">Full controlled admin panel.</span>
+               </figcaption>
+            </figure>
+         </div>
+
+
+         <!-- Dummy Content Starts -->
+
+         <div class="grid-item mix web-design">
+            <figure>
+               <img src="assets/images/portfolio/strip-4.jpg" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search" id="gaca"></i>
+                  <h5 class="port-title">SoftiCare</h5>
+                  <span class="desc">Sit, amet consectetur adipisicing elit. Recusandae. Dolor sit amet.</span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix ecommerce">
+            <figure>
+               <img src="assets/images/portfolio/tp2.jpg" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search" id="gaca"></i>
+                  <h5 class="port-title">iShopy</h5>
+                  <span class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, harum!</span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix softwares">
+            <figure>
+               <img src="assets/images/portfolio/strip-2.jpg" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search" id="gaca"></i>
+                  <h5 class="port-title">W-Dev</h5>
+                  <span class="desc">Dolor sit, amet consectetur adipisicing elit. Recusandae.</span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix cms">
+            <figure>
+               <img src="assets/images/portfolio/tp3.jpg" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search" id="gaca"></i>
+                  <h5 class="port-title">Car Mania</h5>
+                  <span class="desc">Sit, amet consectetur adipisicing elit. Recusandae. Dolor sit amet.</span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix web-design">
+            <figure>
+               <img src="assets/images/portfolio/strip-3.jpg" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search" id="gaca"></i>
+                  <h5 class="port-title">Fruit Factory</h5>
+                  <span class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, harum!</span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix ecommerce">
+            <figure>
+               <img src="assets/images/portfolio/strip-4.jpg" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search"></i>
+                  <h5 class="port-title">Best Shoes</h5>
+                  <span class="desc">Dolor sit, amet consectetur adipisicing elit. Recusandae.</span>
+               </figcaption>
+            </figure>
+         </div>
+
+         <div class="grid-item mix softwares">
+            <figure>
+               <img src="assets/images/portfolio/strip-2.jpg" alt="">
+               <figcaption class="fig-caption">
+                  <i class="fa fa-search" id="gaca"></i>
+                  <h5 class="port-title">Desks</h5>
+                  <span class="desc">Sit, amet consectetur adipisicing elit. Recusandae. Dolor sit amet.</span>
+               </figcaption>
+            </figure>
+         </div>
+
+
+         <!-- Dummy Content end -->
+
+
+                     
+                     
+               
+      </div>
+      
+   </section>
+
+
+
+
+
+
+
+
+
 
     <!--====== PORTFOLIO PART ENDS ======-->
     
