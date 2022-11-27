@@ -1161,6 +1161,9 @@
 
     <script src="assets/js/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUA57ugsOg6LZr_6Xbd8go7XnVk3AWcdc&callback=myMap"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+   <script src="assets/js/mixitup.min.js"></script>
 
     <script>
         $(document).ready(function(){
