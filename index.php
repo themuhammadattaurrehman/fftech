@@ -352,9 +352,9 @@
                 data-cycle-prev="#pos-prev"
                 data-cycle-next="#pos-next"
                 >
-                <img src="assets/images/portfolio/pos-1.png">
-                <img src="assets/images/portfolio/pos-2.png">
-                <img src="assets/images/portfolio/pos-3.png">
+                <img src="assets/images/portfolio/alexa-admin-1.png">
+                <img src="assets/images/portfolio/alexa-admin-2.png">
+                <img src="assets/images/portfolio/alexa-admin-3.png">
 
                 <div class="center">
                    <a href=# id="pos-prev" class="prev">
