@@ -1166,20 +1166,42 @@
    <script src="assets/js/mixitup.min.js"></script>
 
     <script>
-        $(document).ready(function(){
-                 $('.zoom-port').on('click',function(e){
-                   $('.port-overlay').fadeIn();
-                   e.stopPropagation();
-                 });
+		
+		$(document).ready(function(){
 
-                 
+			// portfolio nav
+			$('.portfolio-nav li').click(function(){
+				$('.portfolio-nav li').removeClass('active')
+				$(this).addClass('active')
+			})
 
-                  $('html').on('click',function(e){
-                   $('.port-overlay').fadeOut();
-                   e.stopPropagation();
-                 });
-                })
-    </script>
+			// mixitup
+			var containerEl = document.querySelector('.portfolioContainer');
+
+            var mixer = mixitup(containerEl, {
+                animation: {
+                    animateResizeContainer: false // required to prevent column algorithm bug
+                }
+            });
+
+            // portfolio overlay
+            	$('.zoom-port').on('click',function(e){
+            		var clickedId= $(this).attr("id");
+      				// alert(clickedId);
+	               $('#'+clickedId).fadeIn();
+	               e.stopPropagation();
+	             });
+
+	             
+
+             	$('.port-close').on('click',function(e){
+               		$('.port-overlay').fadeOut();
+               		e.stopPropagation();
+             	});
+
+		})
+
+	</script>
     
 </body>
 
