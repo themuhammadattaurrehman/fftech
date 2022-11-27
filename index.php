@@ -24,9 +24,13 @@
         
     <!--====== Bootstrap CSS ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	
+    <!--====== FontAwesom CSS ======-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!--====== Default CSS ======-->
     <link rel="stylesheet" href="assets/css/default.css">
+	`
     
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
