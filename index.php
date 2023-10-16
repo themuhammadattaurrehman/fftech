@@ -50,7 +50,7 @@
         "\r\n Message: ". $message . "\r\n";
 
         if(mail($to,$name,$mailHeaders)){
-            $message="successfully";
+            $message="successfully send this message to fftech solution teams";
         }
     
 
