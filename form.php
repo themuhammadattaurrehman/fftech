@@ -12,7 +12,7 @@
         "\r\n Massage: ". $massage . "\r\n";
 
         if(mail($to,$name,$mailHeaders)){
-            $messege="successfully";
+            $message="successfully send this message to fftech solution teams";
         }
 
     }

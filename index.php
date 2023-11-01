@@ -128,6 +128,7 @@
                 </div>
 
                 <div class="port-tech">
+
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -411,9 +412,9 @@
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
                        
-                        <a class="navbar-brand" href="#">
-                            <img src="assets/images/logo.png" alt="Logo">
-                        </a>
+                        <a class="mt-30" href="index.php">
+  <img src="assets/images/fftech.svg" alt="Logo" style="width: 100px; height: 100px;">
+</a>
                         
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="toggler-icon"></span>
@@ -1096,7 +1097,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.php"><img src="assets/images/logo.svg" alt="Logo"></a>
+                    <a class="mt-30" href="index.php">
+  <img src="assets/images/fftech.svg" alt="Logo" style="width: 100px; height: 100px;">
+</a>
+
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
